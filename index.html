@@ -41,6 +41,14 @@ body, html {
     background-image: url("https://orig02.deviantart.net/6c45/f/2016/288/6/1/progress_bar_5k_wallpaper_by_rv770-dakwm2x.png");
     min-height: 400px;
 }
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}	
+	
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 </style>
